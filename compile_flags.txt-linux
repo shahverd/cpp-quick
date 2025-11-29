@@ -1,0 +1,13 @@
+-xc++
+-xc++
+-xc++
+-Wall
+-Wextra
+-MMD
+-MP
+-g
+-I/usr/include
+-I/usr/lib
+-I./include
+-I./lib
+-I./lib/header_only

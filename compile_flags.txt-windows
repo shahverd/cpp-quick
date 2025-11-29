@@ -1,0 +1,14 @@
+'--query-driver=C:/w64devkit/bin/g++.exe'
+--target=x86_64-w64-windows-gnu
+-xc++
+-Wall
+-Wextra
+-MMD
+-MP
+-g
+-IC:/w64devkit/include
+-IC:/w64devkit/lib
+-IC:/w64devkit/lib/gcc/x86_64-w64-mingw32/15.2.0/include
+-I./include
+-I./lib
+-I./lib/header_only
