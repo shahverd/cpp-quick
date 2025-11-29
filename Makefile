@@ -54,7 +54,7 @@ $(BUILD_DIR):
 # Commands
 # ==========================
 run: $(BIN)
-	cp -r $(RUNTIME_DIR)/* $(BUILD_DIR)/
+	cp -r $(RUNTIME_DIR)/. $(BUILD_DIR)/
 	./$(BIN)
 
 clean:
